@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+/* Add your existing styles here */
+
+#cotTable {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Add styling for percentage bars */
+.progress-bar {
+    height: 20px;
+    background-color: #f0f0f0;
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress-bar span {
+    display: block;
+    height: 100%;
+    border-radius: 4px;
+}
+
+/* Add styling for breakout points (star ratings) */
+.star-rating {
+    color: #FFD700; /* Gold color for stars */
+    font-size: 16px;
+    line-height: 1;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: left;
+}
+
+.star-rating span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+}
